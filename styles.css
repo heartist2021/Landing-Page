@@ -142,3 +142,8 @@ ul {
     padding: 20px 10px;
     color:#e5e7eb;
  }
+@media screen and (max-width: 500px) {
+  .box, .main, .mainsub, .column, .row:after, .button, .flex-container, .info, .h4, .button2, . {
+    width: 100%; 
+  }
+}
